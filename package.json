@@ -5,19 +5,35 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "PORT=1234 npx y-websocket-server"
   },
   "dependencies": {
     "@mantine/core": "^4.1.2",
-    "@mantine/hooks": "^4.1.2",
+    "@mantine/form": "^4.1.2",
+    "@mantine/hooks": "^4.1.3",
+    "@mantine/notifications": "^4.1.3",
+    "agora-rtc-react": "^1.1.1",
+    "monaco-editor": "^0.33.0",
+    "monaco-themes": "^0.4.1",
+    "monaco-vim": "^0.3.4",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.3.0",
+    "recoil": "^0.7.0",
+    "tabler-icons-react": "^1.44.0",
+    "y-monaco": "^0.1.3",
+    "y-websocket": "^1.4.0",
+    "yjs": "^13.5.34",
+    "zod": "^3.14.4"
   },
   "devDependencies": {
     "@mantine/eslint-config": "^3.6.14",
     "@types/react": "^17.0.33",
     "@types/react-dom": "^17.0.10",
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^1.0.7",
+    "eslint-plugin-react-hooks": "^4.4.0",
     "typescript": "^4.5.4",
     "vite": "^2.9.0"
   }
