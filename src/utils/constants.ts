@@ -6,6 +6,6 @@ export const EDITOR_OPTIONS = {
 };
 
 export const WEBSOCKET = {
-  URL: 'ws://54.180.91.17:1234',
+  URL: 'wss://54.180.91.17.nip.io',
   ROOM: 'monaco-demo'
 };
